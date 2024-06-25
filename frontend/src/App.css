@@ -1,0 +1,38 @@
+:root {
+    --background-color: #DCE0E2;
+    --main-color: #F2911B;
+    --main-light: hsl(34, 100%, 87%);
+    --main-dark: hsl(34, 100%, 47%);
+
+    /* Light Colors */
+    --light-100: hsl(0, 0%, 98%); /* Branco puro */
+    --light-200: hsl(0, 0%, 90%); /* Cinza claro */
+    --light-300: hsl(0, 0%, 80%); /* Cinza claro */
+    --light-400: hsl(0, 0%, 70%); /* Cinza claro */
+    --light-500: hsl(0, 0%, 60%); /* Cinza claro */
+    --light-600: hsl(0, 0%, 50%); /* Cinza médio */
+    --light-700: hsl(0, 0%, 40%); /* Cinza médio */
+    --light-800: hsl(0, 0%, 30%); /* Cinza escuro */
+    --light-900: hsl(0, 0%, 20%); /* Cinza escuro */
+
+    /* Dark Colors */
+    --dark-100: hsl(0, 0%, 10%); /* Cinza escuro */
+    --dark-200: hsl(0, 0%, 20%); /* Cinza escuro */
+    --dark-300: hsl(0, 0%, 30%); /* Cinza escuro */
+    --dark-400: hsl(0, 0%, 40%); /* Cinza médio */
+    --dark-500: hsl(0, 0%, 50%); /* Cinza médio */
+    --dark-600: hsl(0, 0%, 60%); /* Cinza médio */
+    --dark-700: hsl(0, 0%, 70%); /* Cinza claro */
+    --dark-800: hsl(0, 0%, 80%); /* Cinza claro */
+    --dark-900: hsl(0, 0%, 90%); /* Cinza claro */
+
+    /* Outras definições */
+    --green-color: #0ACF83;
+    --red-color: #FE6D8E;
+}
+
+:root, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

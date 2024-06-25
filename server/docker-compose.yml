@@ -27,5 +27,16 @@ services:
       - POSTGRES_DB=postgres
     volumes:
       - pgdata:/var/lib/postgresql/data
+
+  reactapp:
+    container_name: reactapp
+    build:
+      context: ../frontend
+    ports:
+      - 5000:3000 
+    environment:
+      - NODE_ENV=development
+    depends_on:
+      - nestapp
 volumes:
   pgdata: {}
